@@ -24,15 +24,15 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="A5516613-DD5E-7633-C0B1-BFC06AD7E67D" otype="Table" vid="673A6DBA-5AC5-2A39-F8D0-B36318B976D5">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="578" y="241" width="176" height="105"/>
+<bounds x="603" y="243" width="176" height="105"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="A810E2B9-D595-019D-1065-12B91E7B17B5" otype="Table" vid="87048461-0A01-02A1-F975-AC392C5EA0F9">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="330" y="291" width="209" height="218"/>
+<bounds x="330" y="291" width="219" height="218"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="D3FA25C5-A568-FFCF-1FF6-E92FB30ED1EF" otype="Table" vid="66C84516-2F78-C3AB-30BD-5816BF3AF70B">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="583" y="389" width="170" height="104"/>
+<bounds x="615" y="383" width="170" height="104"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="EECC09BF-BB72-D55A-880F-7BE02EEC8DF6" otype="Table" vid="F6D5D51B-B27E-2905-A56D-F2B13363686E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -58,8 +58,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="583" y="441"/>
-<point x="539" y="441"/>
+<point x="615" y="435"/>
+<point x="549" y="435"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="15572430-A658-FACF-C135-7B6B1351BB68" otype="FKIndexAssociation" vid_source="F6D5D51B-B27E-2905-A56D-F2B13363686E" vid_target="AAE3DD16-600D-4AB9-3613-D205D42D7398">
@@ -85,8 +85,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="578" y="318"/>
-<point x="539" y="318"/>
+<point x="603" y="319"/>
+<point x="549" y="319"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="EA6DEABF-E260-DAA7-0500-DAD2A98CEAEC" otype="FKIndexAssociation" vid_source="AAE3DD16-600D-4AB9-3613-D205D42D7398" vid_target="FFE2CBB5-2DB4-522C-657F-C10B7D43CDB5">
