@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF81B18D-A71F-504C-A364-49F99EA63E40" name="DB_MEDICAL_RECORD_PET">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF81B18D-A71F-504C-A364-49F99EA63E40" name="DB_MEDICAL_RECORD">
 <createdBy>labsfiap</createdBy>
 <createdTime>2026-04-29 22:46:06 UTC</createdTime>
 <ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
@@ -34,7 +34,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="6930FCE7-650C-5A88-FF68-4CFA55792B41" name="DB_MEDICAL_RECORD_PET_ID_PK">
+<ind_PK_UK id="6930FCE7-650C-5A88-FF68-4CFA55792B41" name="DB_MEDICAL_RECORD_ID_PK">
 <createdBy>labsfiap</createdBy>
 <createdTime>2026-04-29 22:51:15 UTC</createdTime>
 <ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
@@ -45,7 +45,7 @@
 <colUsage columnID="78D41D3A-B730-0FE2-AB0E-AB9882E5F580"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="25B59D59-8744-373A-7ACD-D280041817EC" name="DB_MEDICAL_RECORD_PET_ID_PET_FK">
+<ind_PK_UK id="25B59D59-8744-373A-7ACD-D280041817EC" name="DB_MEDICAL_RECORD_ID_PET_FK">
 <createdBy>labsfiap</createdBy>
 <createdTime>2026-04-29 22:51:25 UTC</createdTime>
 <ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
