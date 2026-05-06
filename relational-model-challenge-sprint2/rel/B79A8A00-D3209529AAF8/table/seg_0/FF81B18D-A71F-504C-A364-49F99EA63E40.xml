@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF81B18D-A71F-504C-A364-49F99EA63E40" name="DB_MEDICAL_RECORD_PET">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:46:06 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="78D41D3A-B730-0FE2-AB0E-AB9882E5F580">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:51:15 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pet" id="91C81777-0113-AE40-721F-4B0112270B5C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:51:25 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA6DEABF-E260-DAA7-0500-DAD2A98CEAEC" referredColumn="AB254044-A3D6-FA07-8F16-7F20A6DDF53C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6930FCE7-650C-5A88-FF68-4CFA55792B41" name="DB_MEDICAL_RECORD_PET_ID_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:51:15 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78D41D3A-B730-0FE2-AB0E-AB9882E5F580"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25B59D59-8744-373A-7ACD-D280041817EC" name="DB_MEDICAL_RECORD_PET_ID_PET_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:51:25 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91C81777-0113-AE40-721F-4B0112270B5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B4E5A5B-66F0-08BA-71B9-41407F294E25" name="DB_PET">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:38:38 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="AB254044-A3D6-FA07-8F16-7F20A6DDF53C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:39:49 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tutor" id="8824F60D-E96D-84A9-C994-7AD423F8C5F3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:40:44 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15572430-A658-FACF-C135-7B6B1351BB68" referredColumn="C52F73B0-F999-52C4-BF66-EF4872CF6743"/>
+</associations>
+</Column>
+<Column name="name" id="87CC0F60-3DEA-2EB3-13E5-EB78F326BC6A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:39:49 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="species" id="42731298-C330-FEDC-F2DD-E8025CCA6895">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 22:20:25 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="breed" id="78A11564-CEFE-CB4D-AF8A-8B5EA11A316F">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 22:20:25 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="weight" id="32E75D1A-6B49-8837-F4D9-4103E36B5AF0">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 22:20:25 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sex" id="93B3438B-F216-37ED-FA1B-9C789AA24D68">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 22:20:25 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35479F8E-9D8D-4CB8-B5D7-8CCC664F889C" name="DB_PET_ID_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:39:49 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB254044-A3D6-FA07-8F16-7F20A6DDF53C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E796B9B0-45B1-3337-8893-375267F35EB1" name="DB_PET_ID_TUTOR_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:40:44 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8824F60D-E96D-84A9-C994-7AD423F8C5F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

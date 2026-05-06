@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="29A57A63-D373-88F9-D063-609820F9BCC2" mainViewID="0C55ABDF-C52C-B23B-935B-6F9F25289F7A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:30:02 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

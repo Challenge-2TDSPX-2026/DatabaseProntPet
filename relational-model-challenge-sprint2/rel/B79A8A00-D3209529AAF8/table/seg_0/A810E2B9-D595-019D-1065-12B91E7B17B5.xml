@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A810E2B9-D595-019D-1065-12B91E7B17B5" name="DB_CONSULTATION">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 17:52:00 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8AEBD267-8AF1-7A8C-332B-8D867B4C78AE">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 17:56:37 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pet" id="6629DF0F-C3A1-725A-4845-4121FF17C070">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 17:55:18 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="025811A2-065B-B3B4-3876-2DC9E660228F" referredColumn="AB254044-A3D6-FA07-8F16-7F20A6DDF53C"/>
+</associations>
+</Column>
+<Column name="id_veterinarian" id="F09224E8-7868-89C2-E58B-73C83DACF5E0">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 17:58:00 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="730993E1-8E8D-0ADF-A590-43717819622E" referredColumn="8AC6FEB6-124D-2CC4-AACB-D72E18624FBE"/>
+</associations>
+</Column>
+<Column name="id_clinic" id="31585908-FC6F-5289-208C-D5876614BD4D">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 17:59:32 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12C9525B-2DD7-4A57-3BD2-CB62C49902A2" referredColumn="6EF23B1B-A1AB-5E4A-DC3A-87EDB4F8F530"/>
+</associations>
+</Column>
+<Column name="date" id="563C65DA-F459-B945-516E-2C82862EDE7A">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 17:55:08 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="symptoms" id="52503E93-44B4-E28D-6B09-F65848DC9B9A">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 17:55:08 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="diagnosis" id="A1626775-7B3E-DEF8-8CCB-31993219B5F3">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 17:55:08 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observations" id="C03C946F-9935-0B35-234A-E04449C3F638">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 17:55:08 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="attachment" id="527A17AD-40B1-6157-90E4-1243820D45C0">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 18:27:08 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB7A4E0B-D654-ED32-1ECD-E90F9C6A6EA1" name="DB_CONSULTATION_ID_PK">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 17:56:37 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AEBD267-8AF1-7A8C-332B-8D867B4C78AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F73C3833-6C4B-9B16-2C52-1BA48C541D7C" name="DB_CONSULTATION_ID_PET_FK">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 17:55:18 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6629DF0F-C3A1-725A-4845-4121FF17C070"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="068DD26D-F4B2-B7B0-172F-172384C6F375" name="DB_CONSULTATION_ID_VETERINARIAN_FK">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 17:58:00 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F09224E8-7868-89C2-E58B-73C83DACF5E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD0A51EB-8F7A-68D5-7B3A-F5A84CCBDD4F" name="DB_CONSULTATION_ID_CLINIC_FK">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 17:59:32 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31585908-FC6F-5289-208C-D5876614BD4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

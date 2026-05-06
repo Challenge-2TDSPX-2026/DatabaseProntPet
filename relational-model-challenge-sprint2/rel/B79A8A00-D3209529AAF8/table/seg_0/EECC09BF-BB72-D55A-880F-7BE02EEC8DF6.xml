@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EECC09BF-BB72-D55A-880F-7BE02EEC8DF6" name="DB_TUTOR">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:34:05 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C52F73B0-F999-52C4-BF66-EF4872CF6743">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:37:53 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="5EA4818E-4A90-5BE1-E245-848C87F57372">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:37:53 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="D2B83C5C-3C1D-FCA9-B7AB-CD1A4F80DA8D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:37:53 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="1D2D7533-1722-A848-F787-0D4BD32F02DF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:37:53 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="F22E135E-5EA2-B3E9-694C-460B6AC1E593">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:37:53 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="B843FD81-5D5E-422F-B592-B83834DB0CBB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:37:53 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="1DE74C99-C5EE-F572-8E5D-9806439AE4E5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:37:53 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29CB4783-554E-B8E1-9A6D-CCDF0D415283" name="DB_TUTOR_ID_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:37:53 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C52F73B0-F999-52C4-BF66-EF4872CF6743"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C009316-9A5C-E780-4D5F-ECACBC58579B" name="DB_TUTOR_CPF_UN">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 17:39:26 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2B83C5C-3C1D-FCA9-B7AB-CD1A4F80DA8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F16ED896-B25C-A159-DA9B-7581FD816182" name="DB_TUTOR_EMAIL_UN">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 17:39:26 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F22E135E-5EA2-B3E9-694C-460B6AC1E593"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39488051-2DA4-0A53-89A9-820891071F15" name="DB_TUTOR_PHONE_UN">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 17:39:26 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D2D7533-1722-A848-F787-0D4BD32F02DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="relational-model-challenge-sprint2" id="4EECCD69-77FA-1F7F-11FF-9BAC4C850147" version="3.5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:30:02 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4EECCD69-77FA-1F7F-11FF-9BAC4C850147</designId>
+</OSDM_Design>

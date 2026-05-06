@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="064C218D-5ACE-25C4-BE2B-3DEE25EF2C8B" name="DB_VACCINATION">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 18:00:56 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F28AA5EB-C17B-B0D4-950E-B3604C34F47B">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 18:25:22 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pet" id="53464BF1-EEB0-F6BF-10CD-0C8E4A8DF0C8">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 18:27:42 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3860B537-B8AC-98CB-A68A-CCA2F2369BA4" referredColumn="AB254044-A3D6-FA07-8F16-7F20A6DDF53C"/>
+</associations>
+</Column>
+<Column name="vaccine_name" id="18239125-3E7F-88F3-62C7-A215E3E48A75">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 18:25:22 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="application_date" id="5160E3CE-07B7-4D78-CC3A-935E9586F051">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 18:25:22 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="expiration_date" id="771ABA53-FD2A-AA74-42CE-8F143402DD94">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 18:25:22 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lot" id="2D0929BE-0519-F6C0-EE10-B6CFDC98BDE6">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 18:25:22 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EEED8363-5F34-2809-4C99-FB3B8E02DF93" name="DB_VACCINATION_ID_PK">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 18:25:22 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F28AA5EB-C17B-B0D4-950E-B3604C34F47B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B025DFE-9AAD-44BF-D149-15B3AB140EF9" name="DB_VACCINATION_ID_PET_FK">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-04 18:27:42 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53464BF1-EEB0-F6BF-10CD-0C8E4A8DF0C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

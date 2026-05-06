@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="15572430-A658-FACF-C135-7B6B1351BB68" containerWithKeyObject="3B4E5A5B-66F0-08BA-71B9-41407F294E25" localFKIndex="E796B9B0-45B1-3337-8893-375267F35EB1" name="DB_PET_ID_TUTOR_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-04-29 22:40:44 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<referredTableLongName>DB_TUTOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EECC09BF-BB72-D55A-880F-7BE02EEC8DF6</referredTableID>
+<keyObject>29CB4783-554E-B8E1-9A6D-CCDF0D415283</keyObject>
+<referredKeyID>29CB4783-554E-B8E1-9A6D-CCDF0D415283</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
