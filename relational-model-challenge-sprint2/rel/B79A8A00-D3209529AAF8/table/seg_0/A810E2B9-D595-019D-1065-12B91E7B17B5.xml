@@ -60,13 +60,13 @@
 <colAssociation fkAssociation="12C9525B-2DD7-4A57-3BD2-CB62C49902A2" referredColumn="6EF23B1B-A1AB-5E4A-DC3A-87EDB4F8F530"/>
 </associations>
 </Column>
-<Column name="date" id="563C65DA-F459-B945-516E-2C82862EDE7A">
+<Column name="consultation_date" id="563C65DA-F459-B945-516E-2C82862EDE7A">
 <createdBy>souza</createdBy>
 <createdTime>2026-05-04 17:55:08 UTC</createdTime>
 <ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT015</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
