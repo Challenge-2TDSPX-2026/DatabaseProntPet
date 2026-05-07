@@ -67,6 +67,17 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="age" id="FB5B0695-B368-E641-5633-ED6B2C9D9BCC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-07 01:15:49 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="weight" id="32E75D1A-6B49-8837-F4D9-4103E36B5AF0">
 <createdBy>souza</createdBy>
 <createdTime>2026-05-04 22:20:25 UTC</createdTime>
