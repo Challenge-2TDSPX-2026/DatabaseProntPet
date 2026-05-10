@@ -32,6 +32,74 @@
 <colAssociation fkAssociation="EA6DEABF-E260-DAA7-0500-DAD2A98CEAEC" referredColumn="AB254044-A3D6-FA07-8F16-7F20A6DDF53C"/>
 </associations>
 </Column>
+<Column name="blood_type" id="3EC0666A-51D7-CBE7-D0CB-6D3D3279A8E2">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-10 22:50:03 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="allergies" id="095D2C3D-AD34-4E88-8D7E-D131B5AFF769">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-10 22:50:03 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="chronic_diseases" id="0E818996-2F31-626D-580F-E70DCBF42BC0">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-10 22:50:03 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_castrated" id="29D950D5-70D2-390D-9E54-2DB78BF880CC">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-10 22:50:03 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="microchip_code" id="3A563394-6762-482D-24FB-9BCE07D17652">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-10 22:50:03 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_update" id="3449719E-E619-6C76-97B6-CD4F8FE9DA51">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-10 22:50:03 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="6930FCE7-650C-5A88-FF68-4CFA55792B41" name="DB_MEDICAL_RECORD_ID_PK">

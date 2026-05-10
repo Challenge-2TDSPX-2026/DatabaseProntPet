@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="id_pet" id="6629DF0F-C3A1-725A-4845-4121FF17C070">
+<Column name="id_medical_record" id="A3B8686E-E7E7-C2CA-F517-A5D64689BF57">
 <createdBy>souza</createdBy>
-<createdTime>2026-05-04 17:55:18 UTC</createdTime>
+<createdTime>2026-05-10 22:28:12 UTC</createdTime>
 <ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,7 +29,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="025811A2-065B-B3B4-3876-2DC9E660228F" referredColumn="AB254044-A3D6-FA07-8F16-7F20A6DDF53C"/>
+<colAssociation fkAssociation="ED8CFFF1-3334-6EE0-F93B-863EC5B8110A" referredColumn="78D41D3A-B730-0FE2-AB0E-AB9882E5F580"/>
 </associations>
 </Column>
 <Column name="id_veterinarian" id="F09224E8-7868-89C2-E58B-73C83DACF5E0">
@@ -130,16 +130,6 @@
 <colUsage columnID="8AEBD267-8AF1-7A8C-332B-8D867B4C78AE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F73C3833-6C4B-9B16-2C52-1BA48C541D7C" name="DB_CONSULTATION_ID_PET_FK">
-<createdBy>souza</createdBy>
-<createdTime>2026-05-04 17:55:18 UTC</createdTime>
-<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="6629DF0F-C3A1-725A-4845-4121FF17C070"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="068DD26D-F4B2-B7B0-172F-172384C6F375" name="DB_CONSULTATION_ID_VETERINARIAN_FK">
 <createdBy>souza</createdBy>
 <createdTime>2026-05-04 17:58:00 UTC</createdTime>
@@ -158,6 +148,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="31585908-FC6F-5289-208C-D5876614BD4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBB61A59-6B29-0CC9-7C7B-0620F1D4FF72" name="DB_CONSULTATION_ID_MEDICAL_RECORD_FK">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-10 22:28:12 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3B8686E-E7E7-C2CA-F517-A5D64689BF57"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
