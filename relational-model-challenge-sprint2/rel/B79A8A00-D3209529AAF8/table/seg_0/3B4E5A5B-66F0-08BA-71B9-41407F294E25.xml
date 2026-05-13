@@ -67,14 +67,14 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="age" id="FB5B0695-B368-E641-5633-ED6B2C9D9BCC">
+<Column name="birth_date" id="FB5B0695-B368-E641-5633-ED6B2C9D9BCC">
 <createdBy>labsfiap</createdBy>
 <createdTime>2026-05-07 01:15:49 UTC</createdTime>
 <ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
