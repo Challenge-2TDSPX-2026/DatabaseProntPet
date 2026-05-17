@@ -113,6 +113,16 @@
 <colUsage columnID="78D41D3A-B730-0FE2-AB0E-AB9882E5F580"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="55A9471E-1AA6-5EAB-269E-5B531B90BC49" name="DB_MEDICAL_RECORD_ID_PET_UN">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-17 15:51:02 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91C81777-0113-AE40-721F-4B0112270B5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="25B59D59-8744-373A-7ACD-D280041817EC" name="DB_MEDICAL_RECORD_ID_PET_FK">
 <createdBy>labsfiap</createdBy>
 <createdTime>2026-04-29 22:51:25 UTC</createdTime>
