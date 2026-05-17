@@ -64,5 +64,15 @@
 <colUsage columnID="8AC6FEB6-124D-2CC4-AACB-D72E18624FBE"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="FDB01961-82B3-F601-9BF4-279D9539DA40" name="DB_VETERINARIAN_CRMV_UN">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-17 16:52:38 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C445595E-A118-6379-C057-C1FD3E68C2CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>

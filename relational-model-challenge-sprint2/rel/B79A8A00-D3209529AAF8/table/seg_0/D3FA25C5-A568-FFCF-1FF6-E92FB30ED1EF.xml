@@ -64,5 +64,15 @@
 <colUsage columnID="6EF23B1B-A1AB-5E4A-DC3A-87EDB4F8F530"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="B0E66999-03A0-51A6-6C8C-BD936161DC85" name="DB_CLINIC_CNPJ_UN">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-17 16:51:30 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC438B44-8DA7-7D4B-6E71-3FF1CC8BF31A"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>
