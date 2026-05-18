@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F367341-361D-7189-0674-DDEE6768E629" name="CONSULTATION">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:31:52 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="BAF72C04-8F76-8410-0E52-1AF4987A8539">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:32:02 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONSULTATION DATE" id="767A2A91-39D2-A408-789B-920A77D9CE0B">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:32:07 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SYMPTOMS" id="32947CD2-AE80-75C4-43CB-08F7CFAEE8BC">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:32:27 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIAGNOSIS" id="51032B9B-2887-3EAC-6B41-42236E9F8A46">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:32:43 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OBSERVATIONS" id="6537199F-660A-9648-8F74-C9411D7E722E">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:33:36 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATTACHMENT" id="068610FF-7841-5A7A-819D-B7B4939127C4">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:33:43 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="97EF26A9-4E36-C3CE-C12E-F85214BCB77E">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:34:26 UTC</createdTime>
+<generatorID>A4222A14-AC5A-08A2-93BA-CF9966E653AE</generatorID>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<referedAttribute>27EBADFA-8005-DD13-6D6A-361645754847</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="9F1C0593-F3EF-2F97-B939-203F339E04C6">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:34:31 UTC</createdTime>
+<generatorID>326708A4-1429-1BD8-6997-3F78F501591D</generatorID>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<referedAttribute>4A3F6A12-C8B9-43A3-E81C-942AEE07B5A7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID3" id="ABE5F1DE-7AEC-7A07-25F3-7937CCFC5823">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:35:27 UTC</createdTime>
+<generatorID>83B0E85B-9D20-9900-F94E-806718F4CACB</generatorID>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<referedAttribute>F28F3293-9D41-6F20-82F5-5937C11CCE92</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EF779C1E-A093-82CB-13DA-5B7A12D540DC" name="CONSULTATION PK">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:32:06 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BAF72C04-8F76-8410-0E52-1AF4987A8539</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

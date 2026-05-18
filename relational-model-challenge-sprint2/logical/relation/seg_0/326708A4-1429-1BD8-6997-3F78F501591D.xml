@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="326708A4-1429-1BD8-6997-3F78F501591D">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:34:31 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<sourcePk>2201A653-1898-D5A0-7E63-D76DC8E6A0E1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9C1F642B-70CD-0327-6555-CCC07522C461</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1F367341-361D-7189-0674-DDEE6768E629</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E2844C1-A954-9A7E-3A12-791895F2222D" name="VETERINARIAN">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:30:26 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="27EBADFA-8005-DD13-6D6A-361645754847">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:30:41 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="8B53186B-9852-17E3-7409-10ADE2936FB9">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:30:45 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CRMV" id="1B926A3C-A2D2-20C6-1A7F-F109807F4766">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:31:01 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SPECIALITY" id="D517B821-7B3A-D09D-0321-3C594C644273">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:31:12 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="59499A78-078C-0E38-A9D6-ADDF739ECECD" name="VETERINARIAN PK">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:30:44 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>27EBADFA-8005-DD13-6D6A-361645754847</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB037581-7969-1638-1F3F-2C1B7596B674" name="VACCINATION">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:13:55 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="22AF739E-E632-7D6B-04C2-4883B2C94233">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:14:08 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VACCINE NAME" id="313294B5-B6A7-6594-E8B5-8D70737E5C06">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:14:13 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APPLICATION DATE" id="657548C8-E262-48A2-D87B-E06565A2E51F">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:14:33 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EXPIRATION DATE" id="210776A4-C26B-5292-BECB-154EB83E7C29">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:14:41 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOT" id="07A592B2-B760-F27C-DA9C-72989640F2BC">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:14:49 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="AABB5E35-718E-AE54-2478-B2D703ABA401">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:15:29 UTC</createdTime>
+<generatorID>7FE7BDBA-F1C9-23AB-BE71-E423A85864F9</generatorID>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<referedAttribute>18C99708-EF91-A52D-A0C7-3F01AB2041C0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5F4B9490-7E4E-5B49-81F8-0F00853D5EC0" name="VACCINATION PK">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:14:12 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>22AF739E-E632-7D6B-04C2-4883B2C94233</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

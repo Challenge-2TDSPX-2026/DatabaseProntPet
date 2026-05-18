@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C1F642B-70CD-0327-6555-CCC07522C461" name="MEDICAL_RECORD">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:26:03 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="4A3F6A12-C8B9-43A3-E81C-942AEE07B5A7">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:26:18 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BLOOD TYPE" id="C1DC8230-81FA-BB19-1AEB-DE5778582ACE">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:26:25 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ALLERGIES" id="C0F9D72D-750C-28F9-2CE7-379F304A1841">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:26:50 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CHRONIC DISEASES" id="3107FFC7-729A-48D8-2F86-DDB633A47A12">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:27:01 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IS CASTRATED" id="1C3E66E1-DDC1-448B-AF8D-7C93228CE64C">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:27:22 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MICROCHIP CODE" id="EC48F7B1-767B-5C07-54F4-DE740D514C0B">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:27:31 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LAST UPDATE" id="237A7504-5F4D-A95A-50E6-62AFA9E590AE">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:27:40 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="85603A16-6908-6721-CCB6-1F19CF74F43B">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:29:54 UTC</createdTime>
+<generatorID>547EA9B9-2F86-86AB-6B04-5AF59C30823F</generatorID>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<referedAttribute>18C99708-EF91-A52D-A0C7-3F01AB2041C0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2201A653-1898-D5A0-7E63-D76DC8E6A0E1" name="MEDICAL_RECORD PK">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-18 17:28:03 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4A3F6A12-C8B9-43A3-E81C-942AEE07B5A7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
