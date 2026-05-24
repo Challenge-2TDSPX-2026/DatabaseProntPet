@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2FEF1108-3FF9-63B4-89B0-019C48B99C15" name="LOG_ERRORS">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-24 03:27:08 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="38BD55A2-FC53-C9B2-F7CD-21CE435060D1">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-24 03:27:25 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROC_NAME" id="05C01BE5-EE2E-28DD-6165-8D8CDFE652E9">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-24 03:27:41 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USER_NAME" id="16F26623-C48C-64BB-2C6C-93D8E553A1D6">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-24 03:27:53 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ERROR_DATE" id="D63AFABE-BFF9-42E0-1886-2EEF7B8CFFC2">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-24 03:28:00 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ERROR_CODE" id="42E4B465-A4F6-6104-84EB-13A469D78EA9">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-24 03:28:12 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ERROR_MSG" id="FA88584A-8BC3-0E25-0A61-061F23093B75">
+<createdBy>souza</createdBy>
+<createdTime>2026-05-24 03:28:20 UTC</createdTime>
+<ownerDesignName>relational-model-challenge-sprint2</ownerDesignName>
+<engineerTo>
+<item key="B79A8A00-2008-A134-2F8B-D3209529AAF8" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
